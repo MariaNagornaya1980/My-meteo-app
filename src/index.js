@@ -38,8 +38,6 @@ function formatDate(date) {
   }
 }
 
-return `${day} ${hours}:${minutes}, `;
-
 function searchCity(city) {
   let apiKey = "fbef01f4et1b02o0d25c27210a43ef3f";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
